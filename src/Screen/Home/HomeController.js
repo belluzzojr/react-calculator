@@ -8,12 +8,6 @@ const HomeController = () => {
     const [operator, setOperator] = useState("+")
     const [results, setResults] = useState(0);
 
-    //* APENAS PARA PARAR DE WARN *//
-    setNumber2(0)
-    setOperator("+")
-    setResults(0);
-    //* *//
-
     const buttonCalc = (e) => {
         var input = e.target.value
         if (number === 0){
